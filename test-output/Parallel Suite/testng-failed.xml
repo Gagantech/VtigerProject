@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Parallel Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test4(failed)">
+    <classes>
+      <class name="testPackage.VerifiacationClass">
+        <methods>
+          <include name="verify"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testPackage.VerifiacationClass -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Parallel Suite] -->
